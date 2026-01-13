@@ -239,7 +239,6 @@ background-color: white;
   font-weight: 600;
 }
 .student-img{
-  position: relative;
   margin-left: 90px;
 }
 .student-img img{
@@ -252,10 +251,8 @@ background-color: white;
 }
 
 .btn-experience{
-  
-  position: absolute;
-  top: 745px;
-  right: 430px;
+  margin: -70px;
+  margin-top: -100px;
   width: 250px;
   height: 130px;
  color: white;
