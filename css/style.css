@@ -52,6 +52,24 @@ margin: 0 auto
   border: 2px solid #9540FF;
 }
 
+.btn-experience{
+  width: 300px;
+  height: 150px;
+ color: white;
+  font-size: 1.1rem ;
+  background-color: #9540FF;
+  border: 2px solid #9540FF;
+  padding: 12px 20px;
+  border-radius: 10%;
+  cursor: pointer;
+  transition: all 0.4s ease ;
+}
+.btn-experience:hover{
+  color: #9540FF;
+  background-color:white;
+  border: 2px solid #9540FF;
+}
+
 
 
 /* header  */   
@@ -192,6 +210,51 @@ input:focus{
   margin: 30px 0px;
   font-size: 1rem;
 }
+/* service section  */
+.services{
+gap: 20px;
+}
+.services-container{
+  border: 2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.services-container h3{
+  font-size: 3rem;
+  font-weight: bold;
+}
+.services-container p{
+  font-size: 1rem;
+  color: #727272;
+  
+}
+.services-container p {
+  font-size: 1rem;
+  color: #727272;
+}
+.service-description{
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.service-content{
+  padding: 30px;
+  box-shadow: 0px 0px 20px rgb(233, 232, 232);
+  margin: 10px 0px;
+  
+}
+.service-content h5{
+  font-size: 20px ;
+  font-weight: 600;
+}
+
+.student-img img{
+  max-width: 608px;
+}
+.btn-experience{
+
+}
+
 
 /* media query for small device */
 
