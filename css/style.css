@@ -189,4 +189,18 @@ input:focus{
 }
   }
 
-
+  .hero-video{
+    
+    margin-top: 50px;
+  }
+.hero-video iframe{
+  width: 800px;
+  height: 456px;
+  /* border-radius: 10%; */
+  background-color: white;
+  border: 7px solid white;
+  border-radius: 40px;
+  outline: 5px solid #9540FF;
+  /* padding: 10px; */
+  
+}
