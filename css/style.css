@@ -229,7 +229,7 @@ margin-bottom: 130px;
 border-radius: 10px;  
 }
 .service-content h5{
-  font-size: 20px ;
+  font-size: 1.3rem ;
   font-weight: 600;
 }
 .student-img{
@@ -354,6 +354,30 @@ border-radius: 10px;
   font-size: 1rem;
 }
 
+/* service section */
+
+.services{
+  flex-direction: column-reverse;
+
+}
+
+
+.student-img{
+    margin: 10px;
+
+
+}
+.student-img img{
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.btn-experience{
+  display: none;
+  
+}
+
   }
 
+  
   
