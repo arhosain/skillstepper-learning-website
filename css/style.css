@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background-image: url(../images/body-bg.png);
+  background-size: 1000px;
+}
 /* shared style */
 
 /* font  */
@@ -67,7 +71,7 @@ margin: 0 auto
   
 }
 .logo{
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: bold;
 }
 nav a {
@@ -127,6 +131,7 @@ nav a {
   justify-content: space-between;
   align-items: center;
   gap: 20px;
+  background-color: white;
   
 }
 .email-form input{
@@ -227,6 +232,7 @@ margin-bottom: 130px;
   box-shadow: 0px 0px 20px rgb(238, 238, 238);
   margin: 10px 0px;
 border-radius: 10px;  
+background-color: white;
 }
 .service-content h5{
   font-size: 1.3rem ;
@@ -269,9 +275,7 @@ border-radius: 10px;
   border: 2px solid #9540FF;
 }
 /* fact section  */
-.fact-sections{
-  
-}
+
 .fact-card-container{
   max-width: 1190px;
   margin: 0 auto;
@@ -291,6 +295,7 @@ border-radius: 10px;
   align-items: center;
   justify-content: center;
   border-radius: 10px; 
+  background-color: white;
 }
 .fact-card img{
   max-width: 50px;
