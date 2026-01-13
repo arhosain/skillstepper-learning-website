@@ -315,26 +315,28 @@ border-radius: 10px;
   margin-bottom: 80px;
 }
 
-/* sponser-section  */
+/* sponsor-section  */
 
-.sponser-section{
+.sponsor-section{
   text-align: center;
 }
-.sponser-section h3{
+.sponsor-section h3{
   font-size: 3rem;
   
 }
-.sponser-section p{
+.sponsor-section p{
 margin-top: 20px;
 }
-.sponser-img{
+.sponsor-img{
   margin-top: 50px;
   margin-bottom:130px ;
  justify-content: space-between;
   
 }
-.sponser-img img {
+.sponsor-img img {
   filter: grayscale(100%);
+  max-width: 170px;
+  
 }
 
 /* media query for small device */
@@ -456,6 +458,16 @@ margin-top: 20px;
   flex-direction: column;
   gap: 50px;
   margin-bottom: 100px;
+}
+
+/* sponsor section  */
+
+.sponsor-img{
+  flex-direction: column;
+
+}
+.sponsor-img img{
+  margin-top: 40px;
 }
 
   }
