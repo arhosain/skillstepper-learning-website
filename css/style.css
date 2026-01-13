@@ -116,13 +116,13 @@ nav a {
   
 }
 .email-container{
- /* width: 50%;  */
-  /* border: 2px solid orange; */
+  
   width: 100%;
   justify-content: center;
   margin-bottom: 50px;
-  
+
 }
+
 .email-form{
   width: 40%;
   padding: 10px;
@@ -517,12 +517,6 @@ padding: 30px;
   }
 
   
-
-
-
-
-
-
 
 
 
