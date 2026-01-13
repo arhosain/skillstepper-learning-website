@@ -52,23 +52,7 @@ margin: 0 auto
   border: 2px solid #9540FF;
 }
 
-.btn-experience{
-  width: 300px;
-  height: 150px;
- color: white;
-  font-size: 1.1rem ;
-  background-color: #9540FF;
-  border: 2px solid #9540FF;
-  padding: 12px 20px;
-  border-radius: 10%;
-  cursor: pointer;
-  transition: all 0.4s ease ;
-}
-.btn-experience:hover{
-  color: #9540FF;
-  background-color:white;
-  border: 2px solid #9540FF;
-}
+
 
 
 
@@ -247,14 +231,39 @@ gap: 20px;
   font-size: 20px ;
   font-weight: 600;
 }
-
+.student-img{
+  position: relative;
+}
 .student-img img{
   max-width: 608px;
 }
-.btn-experience{
-
+.btn-experience span{
+ font-size: 1.2rem;
+ font-weight: normal;
 }
 
+.btn-experience{
+  position: absolute;
+  top: 745px;
+  right: 430px;
+  width: 250px;
+  height: 130px;
+ color: white;
+  font-size: 2rem ;
+  font-weight: bold;
+  background-color: #9540FF;
+  border: 2px solid #9540FF;
+  padding: 30px;
+  border-radius:10px;
+  outline:7px solid white;
+  cursor: pointer;
+  transition: all 0.4s ease ;
+}
+.btn-experience:hover{
+  color: #9540FF;
+  background-color:white;
+  border: 2px solid #9540FF;
+}
 
 /* media query for small device */
 
