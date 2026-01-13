@@ -268,6 +268,53 @@ border-radius: 10px;
   background-color:white;
   border: 2px solid #9540FF;
 }
+/* fact section  */
+.fact-sections{
+  
+}
+.fact-card-container{
+  max-width: 1190px;
+  margin: 0 auto;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 100px;
+}
+.fact-card{
+  padding: 20px;
+  border: 2px solid #9540FF;
+  text-align: center;
+  width: 250px;
+  height: 250px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px; 
+}
+.fact-card img{
+  max-width: 50px;
+}
+.fact-card h6{
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: #424242;
+}
+.fact-card p{
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #727272;
+}
+.fact-sections h3{
+  font-size: 3rem;
+  font-weight: bold;
+}
+.fact-description{
+  font-size: 1rem;
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
 
 /* media query for small device */
 
