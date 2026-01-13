@@ -159,10 +159,36 @@ input:focus{
   /* padding: 10px; */
   
 }
+/* main section  */
 
+.features{
+  max-width: 1180px;
+  margin: 0 auto;
+  margin-top: 130px;
+  align-items: center;
+  gap: 50px;
+}
+.features-img{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  
+}
 
+.features-img img{
+  max-width: 300px;
+}
+.features-content{}
+.features-content h3{
+  font-size: 3rem;
+}
+.features-content p{
+  margin: 30px 0px;
+  font-size: 1rem;
+}
 
 /* media query for small device */
+
   @media screen and (max-width:576px) {
     
     .nav{
