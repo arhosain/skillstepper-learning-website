@@ -304,6 +304,8 @@ background-color: white;
   font-size: 2.5rem;
   font-weight: 500;
   color: #424242;
+  margin-top: 5px;
+  margin-bottom: 10px;
 }
 .fact-card p{
   font-size: 1.2rem;
